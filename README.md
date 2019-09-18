@@ -33,6 +33,7 @@ Unlike other "secret messenger" apps such as Kik, you can use SammiChat on your 
 Take a peek at our code here:
 
 json.extract! @chat, :id, :username, :message
+
 json.url chat_url(@chat, format: :json)
 
 ===
